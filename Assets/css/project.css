@@ -4,48 +4,46 @@ body {
   background-color: rgba(0, 0, 0, 0.89);
   background-blend-mode: overlay;
 }
-b {
+b{
   color: gold;
 }
 /* section styling */
 .backgr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   color: #fff;
-  text-align: center;
   position: relative;
   word-wrap: break-word;
 }
-.ctr {
+.ctr{
   text-align: center;
 }
 .backgr img {
-  width: 100%;
-  height: auto;
-}
+    width: 100%;
+    height: auto;
+  }
 .backgr h1 {
   font-size: 5vh;
   width: 100%;
-  height: auto;
+    height: auto;
 }
 .backgr p {
   font-size: larger;
   line-height: 1.5;
   width: 100%;
-  height: auto;
+    height: auto;
 }
-.btn-align {
+.btn-align{
   display: flex;
-  justify-content: space-around;
 }
 /* buttons styling */
 
 .btn {
   box-sizing: border-box;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+       -moz-appearance: none;
+          appearance: none;
   background-color: transparent;
   border: 1px solid #e74c3c;
   border-radius: 0.6em;
@@ -59,12 +57,11 @@ b {
   padding: 1em 2em;
   text-decoration: none;
   text-align: center;
-  font-weight: bold;
+  font-weight:bold;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   color: #fff;
   outline: 0;
 }
