@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-color: #f6f5f5;
+  background-color: #000000;
   margin: 0px;
   padding: 0px;
 }
@@ -30,7 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
 }
@@ -46,7 +46,7 @@ nav ul li a {
   width: 100%;
   margin: 30px;
   font-family: myriad pro regular;
-  color: #505050;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 700;
 }
@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 .logo {
   font-family: RoadTest;
-  color: #000000;
+  color: #ffffff;
   font-size: 22px;
 }
 .logo b {
@@ -85,9 +85,9 @@ nav ul li a:hover {
 .about-container {
   width: 80%;
   height: fit-content;
-  background: #ffffff;
+  background: #1b1b1b;
   border-radius: 20px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
   margin: -7% auto 20px auto;
@@ -107,7 +107,7 @@ nav ul li a:hover {
   text-align: center;
 }
 .about-text p:nth-child(1) {
-  color: #403e3e;
+  color: #fcfcfc;
   margin-top: 1em;
   font-family: myriad pro;
   font-weight: bold;
@@ -115,14 +115,14 @@ nav ul li a:hover {
   line-height: 0px;
 }
 .about-text p:nth-child(2) {
-  color: #3e3d3d;
+  color: #ffffff;
   font-size: 1.5em;
   font-family: myriad pro;
   font-weight: normal;
   line-height: 1em;
 }
 .about-text p:nth-child(3) {
-  color:#121212;
+  color:#ffffff;
   text-align: left;
   font-family: calibri;
   font-size: 20px;
@@ -144,11 +144,12 @@ font-weight: normal;
   font-weight: bold;
   font-size: 14px;
   outline: none;
-  background: none;
+  background: black;
+  color: white;
 }
 .about-text button:hover{
-    background-color:#121212;
-    color: white;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
 }
 /* about section ends */
 
@@ -179,7 +180,7 @@ footer span a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6e3e3;
+  background-color: #000000;
   margin: 20px 10px;
   border-radius: 50%;
 
@@ -189,7 +190,7 @@ footer span a:hover {
 }
 .social-icons i,
 .social i {
-  color: #000000;
+  color: #ffffff;
 }
 .social-icons div:hover {
   background-color: #000000;
@@ -198,12 +199,12 @@ footer span a:hover {
 }
 .social-icons div:hover i,
 .social div:hover i {
-  color: #ffffff;
+  color: #ff0000;
   transition: all ease 0.5s;
 }
 
 .copyright {
-  color: #565555;
+  color: #000000;
   font-size: 12px;
   position: absolute;
   left: 50%;
@@ -226,9 +227,9 @@ footer span a:hover {
   margin: 0px;
   padding: 0px;
   line-height: 0px;
-  background-color: #ffffff;
-  border: 1px solid #cbcbcb;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  background-color: #020202;
+  border: 1px solid #3b3b3b;
+  box-shadow: 2px 2px 12px rgba(167, 167, 167, 0.2);
 
 }
 .social div:hover {
@@ -238,7 +239,7 @@ footer span a:hover {
 }
 .social i {
   font-size: 20px;
-  color: #2b2b2b;
+  color: #ffffff;
 }
 /* foorer section ends */
 /* responsive section */
